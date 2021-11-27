@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+
+		<parameter name="browser" value="chrome" />
+		<classes>
+
+			<class name="Set1A.Set1A_Question1" />
+			<!-- <class name="Set1A.Set1A_Question2" /> -->
+
+		</classes>
+	</test> <!-- Test -->
+
+
+</suite> <!-- Suite -->

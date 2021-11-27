@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+
+		<parameter name="browser" value="chrome" />
+		<parameter name="email" value="sit16thnov@mailinator.com" />
+		<parameter name="pwd" value="Calsaws03!" />
+		<parameter name="url"
+			value="https://sit1-app.sit.benefitscaldev.com" />
+		<classes>
+
+			<!-- <class name="BenefitsCal.CreateAccountandLogin" /> -->
+			<class name="BenefitsCal.Login" />
+
+		</classes>
+	</test> <!-- Test -->
+
+
+</suite> <!-- Suite -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="pwd" value="Calsaws03!"/>
+    <parameter name="email" value="sit16thnov@mailinator.com"/>
+    <parameter name="url" value="https://sit1-app.sit.benefitscaldev.com"/>
+    <classes>
+      <class name="BenefitsCal.Login">
+        <methods>
+          <include name="AfterTest"/>
+          <include name="initiateDriver"/>
+          <include name="login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- BenefitsCal.Login -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
